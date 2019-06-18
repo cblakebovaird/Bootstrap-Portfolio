@@ -2,3 +2,67 @@
     float:right;
 }
 
+body{
+    background-image: url(https://images.all-free-download.com/images/graphiclarge/nostalgic_blue_background_06_hd_pictures_169782.jpg);
+    color: white;
+    background-size: cover;
+}
+
+.navbar{
+    background-image: url(https://images.all-free-download.com/images/graphiclarge/nostalgic_blue_background_06_hd_pictures_169782.jpg);
+    color: white;
+    background-size: cover; 
+}
+
+.navbar-nav_ml_auto{
+    color: white;
+}
+
+#profile-img{
+    margin-bottom: 10px;
+}
+
+#aboutMe {
+
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.199) ;
+    min-height: fit-content;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(153, 211, 255, 0.13);
+
+}
+
+#portfolio {
+
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.199) ;
+    min-height: fit-content;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(153, 211, 255, 0.13);
+
+}
+
+#contactContainer {
+
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.199) ;
+    min-height: fit-content;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(153, 211, 255, 0.13);
+
+}
+
+h3 {
+    position: absolute;
+    text-align: center;
+    top:60%;
+    left: 0 ;
+    right: 0 ;
+    color: white;
+    padding: 10px 61px;
+}
+
+hr{
+    color:black;
+    size: medium;
+}

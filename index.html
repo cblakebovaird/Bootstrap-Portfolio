@@ -8,7 +8,11 @@
     
 <!--This is a link to the bootstrap CSS stylesheet-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+
+    <!--This is a link to my stylesheet-->
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/bootstrapstyle.css">
+  
+  </head>
 <body>
 
         <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-between mr-auto">
@@ -34,38 +38,53 @@
  <br>
 
     <!--About Me Container-->
-  <div class="container">
+  <div class="container" id="aboutMe">
 
-    <!--1st and Only row-->
+    <!--1st Row--> 
     <div class="row">
-      <div class="column col-md-2">
-        <!--These are my first two empty columbus-->
+      <div class="column col-lg-12">
+          <h1 class="pageHeader">About Me</h1>
       </div>
-      <div class="column col-md-8">
- <h1>About Me</h1>
-  <div class="media">
-    <img id="profile-img" img src="/Users/christopherbovaird/UCF/Sandbox/UCFVW201906FSF1/Homework/Assignment 2-CSS:Bootstrap/Bootstrap-Portfolio/Assets/Images/blake.JPG" alt="Blake Bovaird" style="width:10%;height:10%;">
-    <div class="media-body">
-      <p > 
-                   
-        My name is Blake Bovaird. I was born and raised in Columbus,Ga, where I resided for 26 years 
-         before moving to Tennesse and then to my current home in Orlando, Fl. 
-         My hobbies range from anything outdoors such as kayaking or hiking to hosting dinner parties 
-         and trying new restaurants with friends. I absolutely love to travel and hope to end up in a 
-         career in which I can sometimes work remotely from anywhere in the world. I've always thought
-         that learning coding would be extremely fulfilling and was exactly what I was looking for.
-         
-        </p>
-        <!--closing tag for media-body div -->
-    </div>
-    <!--Closing tag for media div-->
+  <!--Closing tag for container div-->
   </div>
+
+      <hr>
+    
+     <!-- Row 2--> 
+     <div class="row">
+
+    
+      <div class="col-sm-3">
+        <img id="profile-img" img src="/Users/christopherbovaird/UCF/Sandbox/UCFVW201906FSF1/Homework/Assignment 2-CSS:Bootstrap/Bootstrap-Portfolio/Assets/Images/blake.JPG" 
+          class ="img-fluid" alt="Blake Bovaird">
+      </div>
+
+      <div class="col-sm-9">
+
+      <p>           
+          My name is Blake Bovaird. I was born and raised in Columbus,Ga, where I resided for 26 years 
+          before moving to Tennesse and then to my current home in Orlando, Fl. 
+          My hobbies range from anything outdoors such as kayaking or hiking to hosting dinner parties 
+          and trying new restaurants with friends. I absolutely love to travel and hope to end up in a 
+          career in which I can sometimes work remotely from anywhere in the world. I've always thought
+          that learning coding would be extremely fulfilling and was exactly what I was looking for.
+         
+      </p>
+        
   <!--Closing tag for 2nd column-->
   </div>
   <!--Closing tag for row div-->
   </div>
-<!--Closing tag for container div-->
-</div>
+
+
+  <!--Bonus Footer-->
+
+  <footer id="sticky-footer" class="fixed-bottom py-4 bg-dark text-white-50">
+      <div class="container text-center">
+          <small>Copyright 2019 &copy; </small>
+      </div>
+  </footer>
+
 
 </body>
 </html> 
