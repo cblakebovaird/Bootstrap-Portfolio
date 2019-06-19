@@ -8,10 +8,16 @@ body{
     background-size: cover;
 }
 
+.nav-item .nav-link{
+    color: white;
+}
+
 .navbar{
     background-image: url(https://images.all-free-download.com/images/graphiclarge/nostalgic_blue_background_06_hd_pictures_169782.jpg);
     color: white;
     background-size: cover; 
+    border-bottom-color: black;
+    border-bottom-width: thick;
 }
 
 .navbar-nav_ml_auto{
