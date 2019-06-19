@@ -66,3 +66,8 @@ hr{
     color:black;
     size: medium;
 }
+
+p{
+    line-height: 1.6;
+    text-indent: 50px;
+}
