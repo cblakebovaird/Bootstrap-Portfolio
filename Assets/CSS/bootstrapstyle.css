@@ -7,11 +7,13 @@ body{
     color:white;
     background-size: cover;
 }
-a{
+a.nav-item.nav-link{
     color: white;
 }
-.nav-item .nav-link{
-    color: white;
+
+
+#nav-div a{
+    color: white!important;
 }
 
 .navbar{
